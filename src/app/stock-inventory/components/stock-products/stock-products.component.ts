@@ -3,9 +3,10 @@ import { FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'stock-products',
-  styleUrls: ['stock-products.component.scss'],
+  styleUrls: ['./stock-products.component.scss'],
   template: `
-    <div class="stock-product" [formGroup]="parent">
+    <div class="stock-product" 
+    [formGroup]="parent">
     </div>
   `
 })

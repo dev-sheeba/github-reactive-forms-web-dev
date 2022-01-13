@@ -3,7 +3,7 @@ import { FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'stock-branch',
-  styleUrls: ['stock-branch.component.scss'],
+  styleUrls: ['./stock-branch.component.scss'],
   template: `
     <div [formGroup]="parent">
       <div formGroupName="store">
